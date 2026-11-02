@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "templateInstructions": "Duplicate this file for one package, replace every example value including the zero-only SHA-256 sample, publish the JSON at a public URL, and place that URL in the HTML page's data-package-json-url attribute.",
+  "package": {
+    "title": "Copper Voltage Drop — Steel Conduit",
+    "shortDescription": "Voltage-drop reference data for uncoated copper conductors installed in steel conduit.",
+    "longDescription": "This package provides conductor-level voltage-drop reference values for uncoated copper conductors in steel conduit at 60 Hz and 75 C. It is intended for lookup, comparison, and supported Acadia Terminal calculations.",
+    "status": "Current",
+    "version": "1.0.0",
+    "category": "Electrical engineering",
+    "subcategory": "Conductors and voltage drop",
+    "datasetId": "copper-voltage-drop-steel-conduit",
+    "provider": "Abracadabra Studio",
+    "recordCount": 21,
+    "dataUpdated": "2026-10-31",
+    "created": "2026-10-15",
+    "packageUpdated": "2026-10-31",
+    "lastVerified": "2026-10-31",
+    "verificationStatus": "Verified against the published source material",
+    "humanVerification": {
+      "status": "Human verified",
+      "note": "Dataset structure, source values, and package metadata were reviewed by Abracadabra Studio on October 31, 2026."
+    },
+    "publisher": "Abracadabra Studio",
+    "maintainer": "Abracadabra Studio",
+    "availability": "Available to Acadia Terminal users",
+    "useNote": "Use this package as a technical reference. Confirm project conditions, conductor properties, code requirements, and engineering assumptions before applying results to a design.",
+    "updateFrequency": "As source information changes",
+    "latestAvailableVersion": "1.0.0",
+    "tags": [
+      {
+        "label": "Voltage drop",
+        "url": "/acadia-packages?tag=voltage-drop"
+      },
+      {
+        "label": "Copper conductors",
+        "url": "/acadia-packages?tag=copper-conductors"
+      },
+      {
+        "label": "Steel conduit",
+        "url": "/acadia-packages?tag=steel-conduit"
+      },
+      {
+        "label": "Electrical design",
+        "url": "/acadia-packages?tag=electrical-design"
+      },
+      {
+        "label": "Engineering reference",
+        "url": "/acadia-packages?tag=engineering-reference"
+      },
+      {
+        "label": "Acadia Terminal",
+        "url": "/acadia-packages?tag=acadia-terminal"
+      }
+    ],
+    "integrity": {
+      "fileName": "copper-voltage-drop-steel-conduit.json",
+      "algorithm": "SHA-256",
+      "published": "2026-10-31",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "changelog": [
+      {
+        "version": "1.0.0",
+        "date": "2026-10-31",
+        "title": "Initial public release",
+        "items": [
+          "Published the normalized conductor voltage-drop dataset.",
+          "Added package metadata, source references, and verification information.",
+          "Added support for Acadia Terminal lookup and result processing."
+        ]
+      },
+      {
+        "version": "0.9.0",
+        "date": "2026-10-20",
+        "title": "Verification candidate",
+        "items": [
+          "Completed the first normalized dataset build.",
+          "Reviewed field names, value types, and record consistency."
+        ]
+      }
+    ],
+    "disclaimer": "Reference information only. Users remain responsible for verifying suitability, applicable codes, project requirements, and final engineering decisions."
+  }
+}
