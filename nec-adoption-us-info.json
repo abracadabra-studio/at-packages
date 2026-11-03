@@ -2,24 +2,24 @@
   "schemaVersion": "1.0",
   "templateInstructions": "Duplicate this file for one package, replace every example value including the zero-only SHA-256 sample, publish the JSON at a public URL, and place that URL in the HTML page's data-package-json-url attribute.",
   "package": {
-    "title": "Copper Voltage Drop — Steel Conduit",
-    "shortDescription": "Voltage-drop reference data for uncoated copper conductors installed in steel conduit.",
-    "longDescription": "This package provides conductor-level voltage-drop reference values for uncoated copper conductors in steel conduit at 60 Hz and 75 C. It is intended for lookup, comparison, and supported Acadia Terminal calculations.",
+    "title": "NEC Adoption United States",
+    "shortDescription": "A state-by-state overview of National Electrical Code adoption across the United States.",
+    "longDescription": "This package provides a state-by-state overview of the National Electrical Code editions in effect across the United States. It includes effective dates and state-specific amendments. It also identifies jurisdictions where code adoption is handled locally rather than statewide. Links to the state government agencies responsible for implementing the code provide access to additional guidance and requirements.",
     "status": "Current",
     "version": "1.0.0",
-    "category": "Electrical engineering",
-    "subcategory": "Conductors and voltage drop",
-    "datasetId": "copper-voltage-drop-steel-conduit",
+    "category": "codes and standards",
+    "subcategory": "electrical code",
+    "datasetId": "nec-adoption-us",
     "provider": "Abracadabra Studio",
-    "recordCount": 21,
-    "dataUpdated": "2026-10-31",
-    "created": "2026-10-15",
-    "packageUpdated": "2026-10-31",
-    "lastVerified": "2026-10-31",
+    "recordCount": 54,
+    "dataUpdated": "2026-11-03",
+    "created": "2026-08-24",
+    "packageUpdated": "2026-11-03",
+    "lastVerified": "2026-11-03",
     "verificationStatus": "Verified against the published source material",
     "humanVerification": {
       "status": "Human verified",
-      "note": "Dataset structure, source values, and package metadata were reviewed by Abracadabra Studio on October 31, 2026."
+      "note": "Dataset structure, source values, and package metadata were reviewed by Abracadabra Studio on Novemeber 03, 2026."
     },
     "publisher": "Abracadabra Studio",
     "maintainer": "Abracadabra Studio",
@@ -54,7 +54,7 @@
       }
     ],
     "integrity": {
-      "fileName": "copper-voltage-drop-steel-conduit.json",
+      "fileName": "nec-adoption-us.json",
       "algorithm": "SHA-256",
       "published": "2026-10-31",
       "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
@@ -62,7 +62,7 @@
     "changelog": [
       {
         "version": "1.0.0",
-        "date": "2026-10-31",
+        "date": "2026-11-03",
         "title": "Initial public release",
         "items": [
           "Published the normalized conductor voltage-drop dataset.",
@@ -72,7 +72,7 @@
       },
       {
         "version": "0.9.0",
-        "date": "2026-10-20",
+        "date": "2026-08-24",
         "title": "Verification candidate",
         "items": [
           "Completed the first normalized dataset build.",
