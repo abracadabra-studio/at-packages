@@ -7,8 +7,9 @@
     "longDescription": "This package provides a state-by-state overview of the National Electrical Code editions in effect across the United States. It includes effective dates and state-specific amendments. It also identifies jurisdictions where code adoption is handled locally rather than statewide. Links to the state government agencies responsible for implementing the code provide access to additional guidance and requirements.",
     "status": "Current",
     "version": "1.0.0",
-    "category": "codes and standards",
-    "subcategory": "electrical code",
+	"group": "codes and standards",
+    "category": "electrical-code",
+    "subcategory": "code-adoption",
     "datasetId": "nec-adoption-us",
     "provider": "Abracadabra Studio",
     "recordCount": 54,
@@ -29,16 +30,16 @@
     "latestAvailableVersion": "1.0.0",
     "tags": [
       {
-        "label": "Voltage drop",
+        "label": "State Electrical Code",
         "url": "/acadia-packages?tag=voltage-drop"
       },
       {
-        "label": "Copper conductors",
-        "url": "/acadia-packages?tag=copper-conductors"
+        "label": "Code Amendments",
+        "url": "/acadia-packages?tag=code-adoption"
       },
       {
-        "label": "Steel conduit",
-        "url": "/acadia-packages?tag=steel-conduit"
+        "label": "Electrical Safety",
+        "url": "/acadia-packages?tag=electrical-safety"
       },
       {
         "label": "Electrical design",
@@ -49,7 +50,7 @@
         "url": "/acadia-packages?tag=engineering-reference"
       },
       {
-        "label": "Acadia Terminal",
+        "label": "National Electrical Code",
         "url": "/acadia-packages?tag=acadia-terminal"
       }
     ],
