@@ -57,8 +57,8 @@
     "integrity": {
       "fileName": "nec-adoption-us.json",
       "algorithm": "SHA-256",
-      "published": "2026-10-31",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      "published": "2026-11-03",
+	  "sha256": "e72ea6890c5a24f629d39a98dcf78a8d674384bf780856dae15f106f1aa553fe"
     },
     "changelog": [
       {
