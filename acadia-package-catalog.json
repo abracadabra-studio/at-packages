@@ -144,7 +144,7 @@
       "title": "pathway-survivability-levels",
       "description": "Local copper and aluminum price observations with date, currency, and unit metadata.",
       "url": "pathway-survivability-levels",
-      "icon": "MET",
+      "icon": "DES",
       "category": "Design",
       "categorySlug": "design",
       "subcategory": "Fire Alarm",
