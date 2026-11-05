@@ -139,5 +139,22 @@
       "verificationLabel": "Not human verified",
       "updated": "2026-10-20"
     }
+    {
+      "datasetId": "pathway-survivability-levels",
+      "title": "pathway-survivability-levels",
+      "description": "Local copper and aluminum price observations with date, currency, and unit metadata.",
+      "url": "pathway-survivability-levels",
+      "icon": "MET",
+      "category": "Design",
+      "categorySlug": "design",
+      "subcategory": "Fire Alarm",
+      "subcategorySlug": "fire-alarm",
+      "keywords": ["fire alarm", "aluminum", "commodity", "electrical materials"],
+      "version": "1.0.0",
+      "status": "Active",
+      "verification": "not-verified",
+      "verificationLabel": "Not human verified",
+      "updated": "2026-11-04"
+    }
   ]
 }
