@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "catalogName": "Acadia Terminal Package Catalog",
-  "catalogUpdated": "2026-10-31",
+  "catalogUpdated": "2026-11-04",
   "packages": [
     {
       "datasetId": "nec-adoption-us",
@@ -143,7 +143,7 @@
       "datasetId": "pathway-survivability-levels",
       "title": "pathway-survivability-levels",
       "description": "Local copper and aluminum price observations with date, currency, and unit metadata.",
-      "url": "pathway-survivability-levels",
+      "url": "package-pathway-survivability-levels",
       "icon": "DES",
       "category": "Design",
       "categorySlug": "design",
