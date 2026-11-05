@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "templateInstructions": "Duplicate this file for one package, replace every example value including the zero-only SHA-256 sample, publish the JSON at a public URL, and place that URL in the HTML page's data-package-json-url attribute.",
+  "package": {
+    "title": "NEC Adoption United States",
+    "shortDescription": "A state-by-state overview of National Electrical Code adoption across the United States.",
+    "longDescription": "This package provides a state-by-state overview of the National Electrical Code editions in effect across the United States. It includes effective dates and state-specific amendments. It also identifies jurisdictions where code adoption is handled locally rather than statewide. Links to the state government agencies responsible for implementing the code provide access to additional guidance and requirements.",
+    "status": "Current",
+    "version": "1.0.0",
+    "category": "codes and standards",
+    "subcategory": "electrical code",
+    "datasetId": "nec-adoption-us",
+    "provider": "Abracadabra Studio",
+    "recordCount": 54,
+    "dataUpdated": "2026-11-03",
+    "created": "2026-08-24",
+    "packageUpdated": "2026-11-03",
+    "lastVerified": "2026-11-03",
+    "verificationStatus": "Verified against the published source material",
+    "humanVerification": {
+      "status": "Human verified",
+      "note": "Dataset structure, source values, and package metadata were reviewed by Abracadabra Studio on Novemeber 03, 2026."
+    },
+    "publisher": "Abracadabra Studio",
+    "maintainer": "Abracadabra Studio",
+    "availability": "Available to Acadia Terminal users",
+    "useNote": "Use this package as a technical reference. Confirm project conditions, conductor properties, code requirements, and engineering assumptions before applying results to a design.",
+    "updateFrequency": "As source information changes",
+    "latestAvailableVersion": "1.0.0",
+    "tags": [
+      {
+        "label": "Voltage drop",
+        "url": "/acadia-packages?tag=voltage-drop"
+      },
+      {
+        "label": "Copper conductors",
+        "url": "/acadia-packages?tag=copper-conductors"
+      },
+      {
+        "label": "Steel conduit",
+        "url": "/acadia-packages?tag=steel-conduit"
+      },
+      {
+        "label": "Electrical design",
+        "url": "/acadia-packages?tag=electrical-design"
+      },
+      {
+        "label": "Engineering reference",
+        "url": "/acadia-packages?tag=engineering-reference"
+      },
+      {
+        "label": "Acadia Terminal",
+        "url": "/acadia-packages?tag=acadia-terminal"
+      }
+    ],
+    "integrity": {
+      "fileName": "nec-adoption-us.json",
+      "algorithm": "SHA-256",
+      "published": "2026-10-31",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "changelog": [
+      {
+        "version": "1.0.0",
+        "date": "2026-11-03",
+        "title": "Initial public release",
+        "items": [
+          "Published the normalized conductor voltage-drop dataset.",
+          "Added package metadata, source references, and verification information.",
+          "Added support for Acadia Terminal lookup and result processing."
+        ]
+      },
+      {
+        "version": "0.9.0",
+        "date": "2026-08-24",
+        "title": "Verification candidate",
+        "items": [
+          "Completed the first normalized dataset build.",
+          "Reviewed field names, value types, and record consistency."
+        ]
+      }
+    ],
+    "disclaimer": "Reference information only. Users remain responsible for verifying suitability, applicable codes, project requirements, and final engineering decisions."
+  }
+}
