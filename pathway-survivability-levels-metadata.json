@@ -5,7 +5,6 @@
     "title": "Pathway Survivability Levels",
     "shortDescription": "Fire alarm pathway survivability Levels 0–4 and their protection requirements.",
     "longDescription": "This package provides a state-by-state overview of the National Electrical Code editions in effect across the United States. It includes effective dates and state-specific amendments. It also identifies jurisdictions where code adoption is handled locally rather than statewide. Links to the state government agencies responsible for implementing the code provide access to additional guidance and requirements.",
-    "longDescription": "",
     "status": "Current",
     "version": "1.0.0",
     "group": "codes and standards",
