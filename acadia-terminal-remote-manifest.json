@@ -1,0 +1,15 @@
+{
+  "manifestFormat": "acadia-terminal-remote-manifest",
+  "manifestVersion": "1.0",
+  "publishedAt": "2026-10-21T00:00:00Z",
+  "publisher": "Abracadabra Studio",
+  "packages": [
+    {
+      "datasetId": "nec-adoption-us",
+      "datasetVersion": "2026.10.21",
+      "category": "electrical-core", 
+      "filename": "nec-adoption-us",
+      "downloadUrl": "https://currentlayer.com"
+    }
+  ]
+}
