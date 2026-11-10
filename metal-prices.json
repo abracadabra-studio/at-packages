@@ -1,0 +1,133 @@
+{
+  "package": {
+    "format": "acadia-terminal-information-package",
+    "formatVersion": "1.0",
+    "packageId": "metal-prices-package",
+    "createdAt": "2026-08-24T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z",
+    "description": "Metal copper and aluminum daily prices."
+  },
+  "dataset": {
+    "id": "metal-prices",
+    "version": "2026.11.09",
+    "schema": "acadia-terminal-market-data",
+    "schemaVersion": "1.0",
+    "title": "Electrical Metals Market Prices",
+    "description": "Copper and aluminum observations used to validate material, date, currency, unit, and latest-value queries.",
+    "category": "market-data",
+    "subcategory": "metal-prices",
+    "createdAt": "2026-08-24T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z",
+    "language": "en-US",
+    "recordCount": 6,
+    "keywords": ["copper", "aluminum", "commodity", "electrical materials"],
+    "status": "draft"
+  },
+  "access": {
+    "loadPolicy": "on-demand",
+    "indexPolicy": "auto",
+    "indexFields": ["id", "data.material", "data.priceDate", "data.currency", "data.unit"],
+    "uniqueFields": ["id"],
+    "searchFields": ["title", "summary", "keywords", "data.material"],
+    "defaultSort": [{"field": "data.priceDate", "direction": "descending"}],
+    "defaultLimit": 20,
+    "maximumLimit": 500,
+    "caseSensitive": false
+  },
+  "source": {
+    "publisher": "Abracadabra Studio",
+    "publisherUrl": "https://abracadabra-studio.com",
+    "sourceName": "Acadia Terminal Development Data",
+    "sourceUrl": null,
+    "articleUrl": "https://abracadabra-studio.com/electrical/metal-prices",
+    "referenceUrls": []
+  },
+  "verification": {
+    "status": "verified",
+    "verifiedAt": null,
+    "verifiedBy": null,
+    "confidence": 0.0,
+    "method": "",
+    "notes": "Metal copper and aluminium price based on available market data",
+    "humanReviewed": true
+  },
+  "records": [
+    {
+      "id": "METAL-COPPER-2026-11-09",
+      "createdAt": "2026-11-09T21:00:00Z",
+      "expiresAt": "2026-11-10T21:00:00Z",
+      "dataType": "currency",
+      "data": {"material": "copper",  "value": 6.33, "currency": "USD", "unit": "pound", "priceDate": "2026-11-09", "marketStatus": "close"},
+      "title": "Copper Price - November 9, 2026",
+      "summary": "Metal copper price (USD / Pound) for November 9, 2026.",
+      "keywords": ["copper", "USD per pound"],
+      "status": "draft"
+    },
+    {
+      "id": "METAL-COPPER-2026-11-06",
+      "createdAt": "2026-11-06T21:00:00Z",
+      "expiresAt": "2026-11-07T21:00:00Z",
+      "dataType": "currency",
+      "data": {"material": "copper",  "value": 6.22, "currency": "USD", "unit": "pound", "priceDate": "2026-11-06", "marketStatus": "close"},
+      "title": "Copper Price - November 8, 2026",
+      "summary": "Metal copper price (USD / Pound) for November 8, 2026.",
+      "keywords": ["copper", "USD per pound"],
+      "status": "draft"
+    },
+    {
+      "id": "METAL-COPPER-2026-11-05",
+      "createdAt": "2026-11-05T21:00:00Z",
+      "expiresAt": "2026-11-06T21:00:00Z",
+      "dataType": "currency",
+      "data": {"material": "copper",  "value": 6.24, "currency": "USD", "unit": "pound", "priceDate": "2026-11-05", "marketStatus": "close"},
+      "title": "Copper Price - November 7, 2026",
+      "summary": "Metal copper price (USD / Pound) for November 7, 2026.",
+      "keywords": ["copper", "USD per pound"],
+      "status": "draft"
+    },
+      {
+      "id": "METAL-COPPER-2026-11-04",
+      "createdAt": "2026-11-04T21:00:00Z",
+      "expiresAt": "2026-11-05T21:00:00Z",
+      "dataType": "currency",
+      "data": {"material": "copper",  "value": 6.39, "currency": "USD", "unit": "pound", "priceDate": "2026-11-04", "marketStatus": "close"},
+      "title": "Copper Price - November 4, 2026",
+      "summary": "Metal copper price (USD / Pound) for November 4, 2026.",
+      "keywords": ["copper", "USD per pound"],
+      "status": "draft"
+    },
+    {
+      "id": "METAL-ALUMINUM-2026-11-09",
+      "createdAt": "2026-11-09T21:00:00Z",
+      "expiresAt": "2026-11-10T21:00:00Z",
+      "dataType": "currency",
+      "data": {"material": "aluminum", "value": 1.39, "currency": "USD", "unit": "pound", "priceDate": "2026-11-09", "marketStatus": "close"},
+      "title": "Aluminum Price - November 9, 2026",
+      "summary": "Metal aluminum price (USD / Pound) for November 9, 2026.",
+      "keywords": ["aluminum", "USD per pound"],
+      "status": "draft"
+    },
+    {
+      "id": "METAL-ALUMINUM-2026-11-06",
+      "createdAt": "2026-11-06T21:00:00Z",
+      "expiresAt": "2026-11-07T21:00:00Z",
+      "dataType": "currency",
+      "data": {"material": "aluminum", "value": 1.39, "currency": "USD", "unit": "pound", "priceDate": "2026-11-06", "marketStatus": "close"},
+      "title": "Aluminum Price - November 6, 2026",
+      "summary": "Metal aluminum price (USD / Pound) for November 6, 2026.",
+      "keywords": ["aluminum", "USD per pound"],
+      "status": "draft"
+    },
+    {
+      "id": "METAL-ALUMINUM-2026-11-05",
+      "createdAt": "2026-11-05T21:00:00Z",
+      "expiresAt": "2026-11-06T21:00:00Z",
+      "dataType": "currency",
+      "data": {"material": "aluminum", "value": 1.39, "currency": "USD", "unit": "pound", "priceDate": "2026-11-05", "marketStatus": "close"},
+      "title": "Aluminum Price - November 5, 2026",
+      "summary": "Metal aluminum price (USD / Pound) for November 5, 2026.",
+      "keywords": ["aluminum", "USD per pound"],
+      "status": "draft"
+    }
+  ]
+}
