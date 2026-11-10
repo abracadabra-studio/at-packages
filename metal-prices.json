@@ -4,12 +4,12 @@
     "formatVersion": "1.0",
     "packageId": "metal-prices-package",
     "createdAt": "2026-08-24T00:00:00Z",
-    "updatedAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-10T00:00:00Z",
     "description": "Metal copper and aluminum daily prices."
   },
   "dataset": {
     "id": "metal-prices",
-    "version": "2026.11.09",
+    "version": "2026.11.10",
     "schema": "acadia-terminal-market-data",
     "schemaVersion": "1.0",
     "title": "Electrical Metals Market Prices",
@@ -17,9 +17,9 @@
     "category": "market-data",
     "subcategory": "metal-prices",
     "createdAt": "2026-08-24T00:00:00Z",
-    "updatedAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-10T00:00:00Z",
     "language": "en-US",
-    "recordCount": 7,
+    "recordCount": 8,
     "keywords": ["copper", "aluminum", "commodity", "electrical materials"],
     "status": "draft"
   },
@@ -52,6 +52,17 @@
     "humanReviewed": true
   },
   "records": [
+    {
+      "id": "METAL-COPPER-2026-11-10",
+      "createdAt": "2026-11-10T21:00:00Z",
+      "expiresAt": "2026-11-11T21:00:00Z",
+      "dataType": "currency",
+      "data": {"material": "copper",  "value": 6.24, "currency": "USD", "unit": "pound", "priceDate": "2026-11-10", "marketStatus": "close"},
+      "title": "Copper Price - November 10, 2026",
+      "summary": "Metal copper price (USD / Pound) for November 10, 2026.",
+      "keywords": ["copper", "USD per pound"],
+      "status": "draft"
+    },
     {
       "id": "METAL-COPPER-2026-11-09",
       "createdAt": "2026-11-09T21:00:00Z",
