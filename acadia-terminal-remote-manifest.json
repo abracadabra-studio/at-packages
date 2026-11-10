@@ -1,7 +1,7 @@
 {
   "manifestFormat": "acadia-terminal-remote-manifest",
   "manifestVersion": "1.0",
-  "publishedAt": "2026-10-21T00:00:00Z",
+  "publishedAt": "2026-11-10T00:00:00Z",
   "publisher": "Abracadabra Studio",
   "packages": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "datasetId": "metal-prices",
-      "datasetVersion": "2026.11.09",
+      "datasetVersion": "2026.11.10",
       "category": "market-data", 
       "fileName": "metal-prices.json",
       "downloadUrl": "https://raw.githubusercontent.com/abracadabra-studio/at-packages/refs/heads/main/metal-prices.json"
