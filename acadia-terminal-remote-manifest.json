@@ -16,7 +16,7 @@
       "datasetVersion": "2026.11.09",
       "category": "market-data", 
       "fileName": "metal-prices.json",
-      "downloadUrl": "https://currentlayer.com/metal-prices.json"
+      "downloadUrl": "https://raw.githubusercontent.com/abracadabra-studio/at-packages/refs/heads/main/metal-prices.json"
     }
   ]
 }
