@@ -20,7 +20,7 @@
     },
     {
       "datasetId": "copper-voltage-drop-steel-conduit",
-      "datasetVersion": "2026.10.25",
+      "datasetVersion": "2026.10.26",
       "category": "technical-guidance", 
       "fileName": "copper-voltage-drop-steel-conduit.json",
       "downloadUrl": "https://raw.githubusercontent.com/abracadabra-studio/at-packages/refs/heads/main/package/copper-voltage-drop-steel-conduit.json"
