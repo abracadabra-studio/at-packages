@@ -10,6 +10,13 @@
       "category": "electrical-core", 
       "fileName": "nec-adoption-us.json",
       "downloadUrl": "https://currentlayer.com/nec-adoption-us.json"
+    },
+    {
+      "datasetId": "metal-prices",
+      "datasetVersion": "2026.11.09",
+      "category": "market-data", 
+      "fileName": "metal-prices.json",
+      "downloadUrl": "https://currentlayer.com/metal-prices.json"
     }
   ]
 }
